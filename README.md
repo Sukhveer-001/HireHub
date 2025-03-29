@@ -17,16 +17,17 @@ HireHub is designed to help students, recruiters, and administrators manage plac
 - 🗄️ Git & GitHub for version control
 
 ## 📷 Screenshots
-![Login Page](./screenshots/login.png)
-![Registration Page](./screenshots/register.png)
+![Home Page](./src/assets/home.png)
+![Login Page](./src/assets/login.png)
+![Registration Page](./src/assets/register.png)
 
 ## 🚀 How to Run Locally
 1. Clone the repo:
 ```bash
-git clone https://github.com/yourusername/hirehub.git
-2. Install dependencies
+git clone https://github.com/Sukhveer-001/HireHub.git
+
 npm install
-3. Run the application
+
 npm run dev
 
 
