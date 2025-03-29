@@ -1,12 +1,39 @@
-# React + Vite
+# 🚀 HireHub - Placement Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **HireHub**, an intuitive placement portal built using **ReactJS**.
 
-Currently, two official plugins are available:
+## 📚 Project Overview
+HireHub is designed to help students, recruiters, and administrators manage placement-related tasks efficiently.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- 📝 **User Authentication:** Login and Registration with validation.
+- 🎯 **Dashboard Access:** Secured routes to manage and view profile.
+- 🔐 **Secure Authentication:** Email & Password validation.
+- ⚡️ **Responsive Design:** Modern UI with seamless user experience.
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
+- ⚛️ ReactJS
+- 🎨 CSS
+- 🗄️ Git & GitHub for version control
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📷 Screenshots
+![Login Page](./screenshots/login.png)
+![Registration Page](./screenshots/register.png)
+
+## 🚀 How to Run Locally
+1. Clone the repo:
+```bash
+git clone https://github.com/yourusername/hirehub.git
+2. Install dependencies
+npm install
+3. Run the application
+npm run dev
+
+
+🤝 Contributing
+Feel free to open issues or contribute!
+
+📧 Contact
+For any queries, reach out at: techforindia03@gmail.com
+
+
