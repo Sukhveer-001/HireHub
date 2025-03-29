@@ -45,7 +45,7 @@ const goBack = () => {
           <i className="fa-solid fa-arrow-left">Back</i>
         </button>
         <div className="registerForm">
-          <h1 className="formTitle">Register to HireHub</h1>
+          <h1 className="formTitleReg">Register to HireHub</h1>
           <form onSubmit={handleSubmit}>
             <label className="inputLabel">Name</label>
             <input

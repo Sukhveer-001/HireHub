@@ -23,7 +23,12 @@
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
+.formTitleReg{
+   color: #4f46e5;
+ text-align: center;
+ margin-bottom: 10px;
+ padding: 10px;
+}
 /* Form Fields */
 .inputLabel {
   margin: 10px 0 5px;

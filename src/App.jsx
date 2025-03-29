@@ -6,6 +6,9 @@ import Register from "./pages/Register.jsx";
 import Dashboard from "./pages/Dashboard.jsx";
 import PrivateRoute from "./components/PrivateRoute";
 import { Routes, Route, useLocation } from "react-router-dom";
+import Profile from './pages/Profile';
+import AdminDashboard from './pages/AdminDashboard';
+
 function App() {
   const location = useLocation();
   const isAuthPage =
@@ -27,6 +30,14 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route
+          path="/admindashboard"
+          element={
+            <PrivateRoute>
+              <AdminDashboard />
+            </PrivateRoute>
+          }></Route>
         <Route
           path="/dashboard"
           element={
