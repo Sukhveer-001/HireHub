@@ -1,0 +1,140 @@
+
+/* Container for Login & Register */
+.loginContainer,
+.registerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Form Wrapper: Same Style for Consistency */
+.loginForm,
+.registerForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #f3f4f6;
+  height: auto; /* Auto height for flexibility */
+  width: 25vw;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Fields */
+.inputLabel {
+  margin: 10px 0 5px;
+  align-self: flex-start;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.inputField {
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  transition: background-color 0.2s ease-in-out;
+  width: 100%;
+}
+
+.inputField:hover {
+  background-color: #e9ecef;
+}
+
+/* Button Styles */
+.submitBtn  {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: #4f46e5;
+  color: white;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  transition: transform 0.2s ease-in-out, background-color 0.2s;
+}
+.logoutBtn {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: #4f46e5;
+  color: white;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  transition: transform 0.2s ease-in-out, background-color 0.2s;
+}
+.logoutBtn:hover {
+  background-color: #3c34c9;
+  transform: scale(1.05);
+}
+.submitBtn:hover {
+  background-color: #3c34c9;
+  transform: scale(1.05);
+}
+
+/* Switch Link for Login/Register */
+.switchLink {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.forgotBtn {
+  color: #4f46e5;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+.forgotBtn:hover {
+  text-decoration: underline;
+}
+
+/* Back Button Style */
+.backBtn {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: #4f46e5;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  left:0.3%;
+  top: 50%;
+  transition: transform 0.2s ease-in-out, background-color 0.2s;
+  text-decoration: none;
+}
+
+.backBtn:hover {
+  background-color: #3c34c9;
+  transform: scale(1.05);
+}
+
+/* Error Message */
+.error {
+  color: red;
+  font-size: 0.9rem;
+  text-align: center;
+}
+.loginForm,
+.loggedIn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f3f4f6;
+  height: 55vh;
+  width: 25vw; 
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
